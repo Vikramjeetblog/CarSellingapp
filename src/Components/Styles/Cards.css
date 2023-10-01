@@ -1,0 +1,80 @@
+
+.Cards {
+    width: 350px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .Card-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+  }
+  
+  .Cars-image {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+
+  .Card-body{
+    display: flex;
+    justify-content: space-around;
+  }
+  .Car-name{
+    font-size: 24px;
+    
+  }
+  .Car-model{
+    padding: 3px;
+    font-size: 16px;
+    border: 1px dotted  #007bff;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+  .Card-content{
+    font-size: 16px;
+  }
+  .icons{
+    font-size: 18px;
+    color: #007bff;
+  }
+  .line{
+    background-color:  #ddd;
+    border: none;
+    height: 1px;
+  }
+ .Price{
+     font-size: 24px;
+  
+ }
+ .heart-rent-container{
+    display: flex;
+    justify-content: space-between;
+    gap:  10px;
+ }
+ .heart-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #007bff;
+    background-color: #ddd;
+    border-radius: 8px;
+    width: 30px;
+    height: 30px;
+  }
+  .Rent-now{
+background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  }

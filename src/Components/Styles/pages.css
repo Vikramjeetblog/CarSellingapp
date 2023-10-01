@@ -1,0 +1,21 @@
+.Page-container{
+    margin: 20px 20px;
+    background-color:#ddd ;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.page-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.page{
+    padding: 2px;
+    border:  2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  
+}
